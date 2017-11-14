@@ -246,25 +246,27 @@ div.barra{
 }
 
 div.logo{
-    width: 70%;
+    width: 80%;
 }
 
 div.logo img{
     width: 100%;
+    float: left;
+    padding: 8px;
 }
 
 @media only screen and (min-width:768px){
     div.logo img{
     width: 33%;
-    float: left;
     }
 }
 
 
 /* * Navegacion principal * */
 nav.navegacion-principal{
-    display: none; 
+    display: none;
 }
+
 
 nav.navegacion-principal a{
     font-family: 'Oswald', sans-serif;
@@ -273,6 +275,10 @@ nav.navegacion-principal a{
     text-transform: uppercase;
     text-decoration: none;
     transition: all .6s ease;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 nav.navegacion-principal a:hover {
@@ -295,11 +301,42 @@ nav.navegacion-principal a:last-child:hover{
     text-align: right;
     display: block;
     }
+
 nav.navegacion-principal a{
-    margin-right: 10px;
     padding: 10px 10px;
     display: inline-block;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
     }
+}
+
+
+/* * Menu movil * */
+div.menu-movil{
+    width: 60px;
+    display: block;
+    float: right;
+    text-align: right;
+    margin-top: 12px;
+}
+
+div.menu-movil:hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px){
+    div.menu-movil{
+        display: none;
+    }
+}
+
+div.menu-movil span{
+    height: 8px;
+    margin-bottom: 6px;
+    background-color: white;
+    display: block;
 }
 
 /* ==========================================================================
