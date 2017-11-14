@@ -272,6 +272,20 @@ nav.navegacion-principal a{
     font-size: 1.3em;
     text-transform: uppercase;
     text-decoration: none;
+    transition: all .6s ease;
+}
+
+nav.navegacion-principal a:hover {
+   background-color: #fe4918;
+}
+
+nav.navegacion-principal a:last-child{
+    border: 2px solid #fe4918;
+    color: #fe4918;
+}
+
+nav.navegacion-principal a:last-child:hover{
+    color: #ffffff;
 }
 
 @media only screen and (min-width:768px){
