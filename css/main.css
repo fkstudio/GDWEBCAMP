@@ -144,19 +144,11 @@ body{
 }
 
 
-.seccion p{
-    font-size: 1.2em;
+.seccion p {
+    font-size: 1em;
     text-align: center;
 }
 
-
-
-h2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.4em;
-    text-transform: uppercase;
-    text-align:center; 
-}
 
 h2{
     font-family: 'Oswald', sans-serif;
