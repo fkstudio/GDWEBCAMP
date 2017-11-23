@@ -362,6 +362,24 @@ div.menu-movil span{
     display: block;
 }
 
+/** Talleres**/
+section.programa{
+    position: relative;
+}
+
+div.contenedor-video{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+div.contenido-programa{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    widows: 100%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
