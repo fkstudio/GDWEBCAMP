@@ -1,0 +1,72 @@
+[33mcommit c80e669c29cb9b04bdf3b4280a512fc3fba1e40a[m
+Merge: c18e63f 61d99c8
+Author: fkstudio <fkop04@gmail.com>
+Date:   Sun Jan 14 17:48:09 2018 -0400
+
+    Merge branch 'master' of https://github.com/fkstudio/GDWEBCAMP
+
+[33mcommit c18e63f20c4a661e36195908e588a2fb8d37093d[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Sun Jan 14 17:41:28 2018 -0400
+
+    Seccion invitados
+
+[33mcommit 61d99c84f7b1aea12cdde2bfc5305ccde4e9fb69[m
+Author: Franklyn <fkop04@gmail.com>
+Date:   Tue Nov 28 18:36:20 2017 -0500
+
+    Programa eventos completo
+
+[33mcommit 66181fba00ca9aa27652ca3b1d2843ef324d65ae[m
+Author: Franklyn <fkop04@gmail.com>
+Date:   Fri Nov 24 18:03:41 2017 -0500
+
+    seguimiento maquetando programa
+
+[33mcommit 286ca589f10c6a1ae9780b9922992b4d6446919c[m
+Author: Franklyn <fkop04@gmail.com>
+Date:   Thu Nov 23 18:23:00 2017 -0500
+
+    terminando estilos del programa
+
+[33mcommit 77dd1ec683b2c4690461d01ada445d6d2a2e82e7[m
+Author: Franklyn <fkop04@gmail.com>
+Date:   Thu Nov 23 17:48:42 2017 -0500
+
+    maquetndo programa evento
+
+[33mcommit 8a29138ef354c7c2d6e39204588d38d2b93f3f79[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Mon Nov 20 00:16:11 2017 -0400
+
+    HTML programa actividad
+
+[33mcommit 56568b18b6328130df53a4e64adacfc3e6bc03f3[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Tue Nov 14 23:30:51 2017 -0400
+
+    video de fondo
+
+[33mcommit 70e0489bdc62c4d8b8fc7fcc75bfb547d71a6a0c[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Tue Nov 14 23:03:52 2017 -0400
+
+    Descripcion del evento lista
+
+[33mcommit f31af1337a6d46fac4a11e2e896024c5d650d4c5[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Tue Nov 14 01:51:23 2017 -0400
+
+    nav completo y terminado
+
+[33mcommit 9634845b740425880ab1627b1aea0c55f5c1b0a4[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Tue Nov 14 01:15:12 2017 -0400
+
+    nav terminado
+
+[33mcommit de5e5dc4ec615fa50f6ee3f6d65dca70c49e26a8[m
+Author: fkstudio <fkop04@gmail.com>
+Date:   Mon Nov 13 23:25:15 2017 -0400
+
+    agregando estilos al nav antes del hover
