@@ -183,7 +183,7 @@ h3{
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     font-size: 1em;
-    margin-top: 20px;
+    margin-top: 25px;
     float: right;
 }
 
@@ -542,6 +542,88 @@ div.invitado:hover p {
    bottom: -80px;
    opacity: 0;
 }
+
+
+/**contador **/
+.parallax::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+}
+
+
+div.contador{
+    position: relative;
+    height: auto;
+}
+
+div.contador::before{
+    background-image: url(../img/bg-resumen.jpg);
+    content: '';
+}
+
+ul.resumen-evento{
+    position: relative;
+    padding: 120px 0;
+}
+
+ul.resumen-evento li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+@media only screen and (min-width:768px){
+ul.resumen-evento li{
+    width:25%;
+    }
+}
+
+p.numero {
+    font-size: 4em;
+    color: #fe4918;
+    display:block;
+    margin: 0 0 10px 0;
+
+}
+
+
+/** Tabla precios**/
+ul.lista-precios >li{
+    padding: 20px;
+}
+
+.button2{
+    background-color: #fe4918;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+@media only screen and (min-width:768px){
+ul.lista-precios >li{
+    float: left;
+    width: 33.3%;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
