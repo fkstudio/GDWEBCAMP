@@ -596,33 +596,167 @@ p.numero {
     color: #fe4918;
     display:block;
     margin: 0 0 10px 0;
-
+    font-family:'Oswald', sans-serif;
 }
 
 
 /** Tabla precios**/
-ul.lista-precios >li{
-    padding: 20px;
+ul.lista-precios > li{
+    padding: 10px;
 }
 
 .button2{
     background-color: #fe4918;
-    padding: 10px 40px;
+    padding: 10px 40px 10px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     font-size: 1em;
+    position: relative;
+    top: 10px;
 }
 
 
 @media only screen and (min-width:768px){
-ul.lista-precios >li{
+ul.lista-precios > li{
     float: left;
-    width: 33.3%;
+    width: 30%;
+}
+}
+
+div.tabla-precio{
+    border: 5px solid #e1e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+div.tabla-precio:hover {
+   transform: scale(1.1);
+   border: 1px solid #f14918;
+   box-shadow: 0px 0px 50px #666;
+   transition: all .3s ease;
+
+}
+
+div.tabla-precio ul li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #868686;
+    line-height: 26px;
+}
+
+div.tabla-precio ul li :before {
+    font-family: 'fontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding:  0 5px;
+    font-size: 20px;
+    color: green;
+    -webkit-font-smoothing: antialiased;
+    content: '\f00c'
+}
+
+
+div.tabla-precio h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+div.tabla-precio p.numero{
+    color: #000000;
+    margin-top: 20px;
+}
+
+/**Mapa**/
+div.mapa{
+    height: 420px;
+    background-color: #e33000;
+}
+
+/**Testimonios**/
+div.testimoniales{
+    padding-bottom: 20px;
+}
+
+div.testimonial{
+    padding: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    div.testimonial {
+        float: left;
+        width: 30.3%;
     }
 }
+
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin: 0 0 10px 0;
+    padding-bottom: 20px;
+}
+
+
+blockquote p {
+   text-align: left !important;
+   font-size: 1em; !important;
+   font-family: 'PT Sans',sans-serif;
+   padding: 0 20px 0 65px;
+}
+
+blockquote p::before{
+    content: '\201c';
+    position: absolute;
+    left: 13px;
+    top: 6px;
+    font-size:8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #fe4918;
+}
+
+footer.info-testimonial{
+    padding: 0;
+}
+
+footer.info-testimonial img{
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 20px; 
+}
+
+footer.info-testimonial cite {
+    text-align: left;
+    color: #fe4918;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 20px;
+    width: 66.6%;
+    float: right;
+    font-weight: bold;
+
+}
+
+footer.info-testimonial span{
+    color: #000000;
+    display:block;
+    text-transform: none;
+    margin-top: 5px;
+    
+}
+
+
+
 
 
 /* ==========================================================================
